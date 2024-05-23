@@ -9,16 +9,11 @@ int main(){
     {
         string str;
         getline(cin,str);
-        string str_cy(str.size(),'a');
         
         if(str=="END") break;
+        reverse(str.begin(),str.end());
         
-        for(int i=str.size(); i>0; i--)
-        {
-            str_cy[str.size()-i]=str[i-1];
-        }
-        
-        cout<<str_cy<<"\n";
+        cout<<str<<"\n";
     }
     return 0;
 }
