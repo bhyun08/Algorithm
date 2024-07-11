@@ -4,3 +4,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 
 I continue to strive to further develop my algorithm skills.   
 더욱 알고리즘 실력을 발전시키기 위하여 계속 노력합니다.
+
+사용언어 : C++, Python
